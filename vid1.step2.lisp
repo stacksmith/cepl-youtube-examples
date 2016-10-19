@@ -5,7 +5,7 @@
 ;;;
 ;;(ql:quickload :cepl.sdl2)(ql:quickload :cepl.examples)(in-package cepl.examples)(cepl:repl)
 
-(in-package #:cepl-learn)
+(in-package #:cepl.examples)
 (defparameter *running* nil)
 ;; *quad* is a list compatible with g-pt format (vec-3 pos and a vec-2 tex)
 (defparameter *quad* (list (list (v! -0.5  0.5 0.0) (v! 0.0 0.0))

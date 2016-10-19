@@ -1,12 +1,7 @@
 October 18, 2016
 
-First of all, let's get to the starting point of the video and load the code to display a red rectangle.
-
-- Load the REPL
-- (ql:quickload :cepl.sdl2)
-- (cepl:repl)
-- (ql:quickload :cepl.examples)
-- (in-package :cepl.examples)
+# vid1.step1.lisp
+First of all, let's get to the starting point of the video and load the code to display a blue rectangle.
 
 In Emacs, open "vid1.step1.lisp", and compile it with C-c C-k.
 

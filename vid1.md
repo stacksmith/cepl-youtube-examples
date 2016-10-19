@@ -25,6 +25,7 @@ At this point you should be able to see the blue rectangle in the CEPL output wi
 Remember to (stop-loop) before messing around with the shaders.  If redefining shaders with different parameters confuses CEPL, so you may need to M-x slime-restart-inferior-lisp  and restart CEPL [as described before](REAMDE.md).
 
 # vid1.step2.lisp
+## [at approximately 1:56](https://youtu.be/I0kWZP9L9Kc?t=116) adding textures...
 
 - In addition to `*tex-array*` and `*texture*` defparameters, you will note one for `*sampler*`
 - The video describes how to initialize the texture in the REPL.  The code is inside run-loop.

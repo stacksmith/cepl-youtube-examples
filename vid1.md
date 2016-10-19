@@ -20,6 +20,8 @@ Comparing your source to the video you will note a few discrepancies.
 
 At this point you should be able to see the blue rectangle in the CEPL output window.
 
+Remember to (stop-loop) before messing around with the shaders.  If redefining shaders with different parameters confuses CEPL, so you may need to M-x slime-restart-inferior-lisp  and restart CEPL [as described before](REAMDE.md).
+
 # vid1.step2.lisp
 
 - In addition to `*tex-array*` and `*texture*` defparameters, you will note one for `*sampler*`

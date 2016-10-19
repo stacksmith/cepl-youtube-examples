@@ -9,12 +9,12 @@
 (defparameter *running* nil)
 
 ;; *quad* is a list compatible with g-pt format (vec-3 pos and a vec-2 tex)
-(defparameter *quad* (list (list (v! -0.5  0.5 0.0 1.0) (v! 0.0 0.0))
-			   (list (v! -0.5 -0.5 0.0 1.0) (v! 0.0 1.0))
-			   (list (v!  0.5 -0.5 0.0 1.0) (v! 1.0 1.0))
-			   (list (v! -0.5  0.5 0.0 1.0) (v! 0.0 0.0))
-			   (list (v!  0.5 -0.5 0.0 1.0) (v! 1.0 1.0))
-			   (list (v!  0.5  0.5 0.0 1.0) (v! 1.0 0.0))))
+(defparameter *quad* (list (list (v! -0.5  0.5 0.0) (v! 0.0 0.0))
+			   (list (v! -0.5 -0.5 0.0) (v! 0.0 1.0))
+			   (list (v!  0.5 -0.5 0.0) (v! 1.0 1.0))
+			   (list (v! -0.5  0.5 0.0) (v! 0.0 0.0))
+			   (list (v!  0.5 -0.5 0.0) (v! 1.0 1.0))
+			   (list (v!  0.5  0.5 0.0) (v! 1.0 0.0))))
 
 (defparameter *vert-array* nil)
 (defparameter *vert-stream* nil)

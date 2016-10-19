@@ -37,16 +37,17 @@
 
 
 (defun run-loop ()
-  (setf *running* t
-	;; Create a gpu array from our Lisp vertex data
-        *vert-array* (make-gpu-array *quad* :dimensions 6
-				     :element-type 'g-pt)
-	;; Create a GPU datastream
-	*vert-stream* (make-buffer-stream *vert-array*))
-  ;; continue rendering frames until *running* is set to nil
-  (loop :while (and  *running*
-		     (not (shutting-down-p))) :do
-     (continuable (step-demo))))
+  (with-viewport (make-viewport '(240 240)) ;for larger viewports must resize window...
+    (setf *running* t
+	  ;; Create a gpu array from our Lisp vertex data
+	  *vert-array* (make-gpu-array *quad* :dimensions 6
+				       :element-type 'g-pt)
+	  ;; Create a GPU datastream
+	  *vert-stream* (make-buffer-stream *vert-array*))
+    ;; continue rendering frames until *running* is set to nil
+    (loop :while (and  *running*
+		       (not (shutting-down-p))) :do
+       (continuable (step-demo)))))
 
 (defun stop-loop ()
   (setf *running* nil))

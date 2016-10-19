@@ -16,8 +16,17 @@ Comparing your source to the video you will note a few discrepancies.
 - `def-g` creates the GPU pipeline.
 - `step-demo` looks a little different; the comments are self-explanatory.
 - `run-loop` is also modernized.  Note that `:element-type` is now `'g-pt`.
+- Note that the syntax for `make-c-array` and `make-gpu-array` has changed - the first parameter is the data.
 
+At this point you should be able to see the blue rectangle in the CEPL output window.
 
+# vid1.step2.lisp
 
+- In addition to `*tex-array*` and `*texture*` defparameters, you will note one for `*sampler*`
+- The video describes how to initialize the texture in the REPL.  The code is inside run-loop.
+- The `vert` shader now returns two values.  The first one is consumed by GL, and the second one is passed on to the next stage in the pipeline, the `frag` shader.  This second value now looks like `(:smooth (tex vert))` instead of the gobbledegoo in the video.
+- The `frag` shader now takes parameters: data from the previous stage, and a uniform sampled texture.  Note that we now return the color using the `texture` function that operates on the parameters named `texture` and `tex-coord`.
+- The `map-g` function now passes the sampled texture to the pipeline.  CEPL is smart enough to figure out what to do with it.
+- `run-loop` initialization looks a little different from the video to match current reality.
 
 

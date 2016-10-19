@@ -3,7 +3,7 @@ October 18, 2016
 [Notes](vid1.md) for video [1 - CEPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc)
 
 # vid1.step1.lisp
-First of all, let's get to the starting point of the video and load the code to display a blue rectangle.
+First of all, let's get to the [starting point of the video](https://www.youtube.com/watch?v=I0kWZP9L9Kc) and load the code to display a blue rectangle.
 
 In Emacs, open "vid1.step1.lisp", and compile it with `C-c C-k`.
 

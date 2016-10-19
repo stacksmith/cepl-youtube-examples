@@ -1,9 +1,3 @@
-Companion to cbaggers' [youtube video 1 - CPL: Lisp, Texture...](https://www.youtube.com/watch?v=I0kWZP9L9Kc)
-
-Since the video was created, CEPL has changed a bit.  What you see on the screen will neither compile nor run.  These notes will help you work through the texture demostration and show you the correct Lisp code.
-
-This document assumes that you are able to get CEPL to work well enough for the triangle demo to work.
-
 October 18, 2016
 
 First of all, let's get to the starting point of the video and load the code to display a red rectangle.

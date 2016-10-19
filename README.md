@@ -15,6 +15,6 @@ This document assumes that you are able to get CEPL to work well enough to see t
 ```
 ## Index
 
-[Notes](vid1.md) for video [1 - CPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc)
+[Notes](vid1.md) for video [1 - CEPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc)
 
 

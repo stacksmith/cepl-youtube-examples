@@ -6,7 +6,13 @@ CEPL is in active development, and a lot of wonderful changes had taken place si
 
 Do not be disappointed - these changes are good!  Just follow code and the notes in this repo to work through the examples.
 
-This document assumes that you are able to get CEPL to work well enough to see the triangle demo.
+This document assumes that you are able to get CEPL to work well enough to see the triangle demo.  All the code requires you to do the following:
+```lisp
+(ql:quickload :cepl.sdl2)
+(cepl:repl)
+(ql:quickload :cepl.examples)
+(in-package :cepl.examples)
+```
 
 [Notes](vid1.md) for video [1 - CPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc)
 

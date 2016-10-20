@@ -1,6 +1,6 @@
 October 19, 2016
 
-[Notes](vid0.md) for video [0 - CEPL: Lispy OpenGL, Textures and Shaders](https://www.youtube.com/watch?v=a2tTpjGOhjw)
+[Notes](vid0.md) for video [0 - CEPL: Lispy OpenGL](https://www.youtube.com/watch?v=a2tTpjGOhjw)
 
 # vid0.step1.lisp
 
@@ -23,3 +23,7 @@ Making the triangle move in a circle
 Very little has changed here.
 
 1. The addition looks a little different since we are converting the position vector to a 4D vector in the first place.
+
+# vid0.step3.lisp
+
+20 little triangles moving in a circle.  The video explains it all.

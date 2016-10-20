@@ -17,7 +17,7 @@ I will be adding more notes and code as time permits.  Please check back often o
 
 ## Index
 
-| .            | .          |
+|              |            |
 | ------------ |:---------- |
 | [Notes](vid0.md) | video [0 - CEPL: Lispy OpenGL](https://www.youtube.com/watch?v=a2tTpjGOhjw) |
 | [Notes](vid1.md) | video [1 - CEPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc) |

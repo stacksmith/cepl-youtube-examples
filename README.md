@@ -16,8 +16,11 @@ This document assumes that you are able to get CEPL to work well enough to see t
 I will be adding more notes and code as time permits.  Please check back often or `watch` this repo.
 
 ## Index
-[Notes](vid0.md) for video [0 - CEPL: Lispy OpenGL](https://www.youtube.com/watch?v=a2tTpjGOhjw)
-[Notes](vid1.md) for video [1 - CEPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc)
+
+| .            | .          |
+| ------------ |:---------- |
+| [Notes](vid0.md) | video [0 - CEPL: Lispy OpenGL](https://www.youtube.com/watch?v=a2tTpjGOhjw) |
+| [Notes](vid1.md) | video [1 - CEPL: Lisp, Textures and Shaders](https://www.youtube.com/watch?v=I0kWZP9L9Kc) |
 
 
 

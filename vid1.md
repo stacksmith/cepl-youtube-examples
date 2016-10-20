@@ -18,6 +18,7 @@ Comparing your source to the video you will note a few discrepancies.
 - [def-g->](http://techsnuffle.com/cepl/api.html#CEPL.PIPELINES:DEF-G-%3E) creates the GPU pipeline.
 - `step-demo` looks a little different; the comments are self-explanatory.
 - `run-loop` is modernized.  Note that `:element-type` is now `'g-pt`.
+- `(with-viewport (make-viewport`... creates a new, square viewport.
 - Note that the syntax for [make-c-array](http://techsnuffle.com/cepl/api.html#CEPL.C-ARRAYS:MAKE-C-ARRAY) and [make-gpu-array](http://techsnuffle.com/cepl/api.html#CEPL.GPU-ARRAYS.BUFFER-BACKED:MAKE-GPU-ARRAY) has changed - the first parameter is the data.
 
 At this point you should be able to see the blue rectangle in the CEPL output window.

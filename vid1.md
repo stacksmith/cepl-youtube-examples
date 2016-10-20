@@ -34,6 +34,8 @@ Remember to (stop-loop) before messing around with the shaders.  If redefining s
 - [map-g](http://techsnuffle.com/cepl/api.html#CEPL.PIPELINES:MAP-G) now specifies the sampled texture for the pipeline.
 - `run-loop` initialization looks a little different from the video to match current reality.
 
+Note: Compiling vid1.step2.lisp after using vis1.step.lisp will result in an error, as CEPL does not know which of the GPU functions to select.  This can be resolved by specifying parameter types for the frag shader explicitly.  But for now it's easier to M-x restart-inferior-lisp and reload CEPL cleanly before compiling this step...
+
 You should now see a bumpy red rectangle.
 
 

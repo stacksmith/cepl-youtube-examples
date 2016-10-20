@@ -10,7 +10,7 @@
 
 
 (defun-g tri-vert ((vert g-pc)) ;; [3]
-  (values (v! (pos vert) 1.0) 
+  (values (v! (pos vert) 1) 
           (col vert)))
 
 (defun-g tri-frag ((color :vec4)) ;; [4]
